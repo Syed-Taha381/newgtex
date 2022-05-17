@@ -8,9 +8,10 @@ import logo from "../../assets/images/Gtexuniforms-logo.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
-    <footer className="w-full pt-[64px] flex justify-between pl-[20px] pr-[20px]">
+    <footer className="w-full pt-[64px] flex justify-between pl-[20px] pr-[20px] mb-[12px]">
       <div className="w-[25%] pl-[15px]">
         <h2 className="text-[28px] leading-[35px] black-color bold mb-[10px] mt-[2.2rem]">
           ELEVATE <br /> YOUR <br />
@@ -22,9 +23,9 @@ const Footer = () => {
           <FaTwitter className="text-[21px] footer-icon-color leading-[21px] font-normal  cursor-pointer" />
           <FaYoutube className="text-[21px] footer-icon-color leading-[21px] font-normal  cursor-pointer" />
         </div>
-        <div className="mt-[122px]">
+        <div className={`mt-[1px] footerLogo`}>
           <Image src={logo} alt="logo" />
-          <div className="flex flex-row justify-between items-center -mt-[40px] relative">
+          <div className="flex flex-row justify-between items-center -mt-[40px] relative mt-[10px]">
             <p className="text-[13px] leading-[28px] black-color medium font-normal">
               © 2022, All Rights Reserved.
             </p>
