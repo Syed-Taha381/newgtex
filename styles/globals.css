@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(../assets/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(../assets/fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
+}
+
+.medium{
+  font-family: Montserrat-Medium;
+}
+.light{
+  font-family: Montserrat-Light;
+}
+.semiblod{
+  font-family: Montserrat-SemiBold;
+}
+.bold{
+  font-family: Montserrat-Bold;
+}
+
+.max-container{
+  max-width: 1440px;
+  width: 100%;
+}
+
+.black-color{
+  color: #241f21 !important;
+}
+
+.black{
+  color: #000000;
+}
+
+.subcolor{
+  color: #333333;
+}
+
+.red-color{
+  color: #e82c2a;
+}
+
+.white-color{
+  color: #fff !important;
+}
+
+.header-shadow{
+  box-shadow: 0 3px 30px rgb(0 0 0 / 10%);
+}
+
+.footer-icon-color{
+  color: #929497;
+}
+
+.buttonText{
+  color: #000014;
+}
+.inputColor{
+  color: #919496;
+}
+
+.menu:hover{
+  border-bottom: 1px solid #000000;
+}
+
+.menu:hover .megamenu{
+  display: flex;
+}
+
+.megamenu::before{
+  content: '';
+  background-color: transparent;
+  width: 68px;
+  height: 40px;
+  position: absolute;
+  top: -41px;
+  left: 246px;
+  cursor: pointer;
+}
