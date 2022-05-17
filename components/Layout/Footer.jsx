@@ -11,7 +11,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="w-full pt-[64px] flex justify-between pl-[20px] pr-[20px]">
-      <div className="w-[23%] pl-[15px]">
+      <div className="w-[25%] pl-[15px]">
         <h2 className="text-[28px] leading-[35px] black-color bold mb-[10px] mt-[2.2rem]">
           ELEVATE <br /> YOUR <br />
           APPEARANCE™
