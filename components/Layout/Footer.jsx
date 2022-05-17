@@ -7,6 +7,7 @@ import {
 import logo from "../../assets/images/Gtexuniforms-logo.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import styles from "../../styles/Home.module.css";
 
 const Footer = () => {
   return (
@@ -23,7 +24,7 @@ const Footer = () => {
             <FaTwitter className="text-[21px] footer-icon-color leading-[21px] font-normal  cursor-pointer" />
             <FaYoutube className="text-[21px] footer-icon-color leading-[21px] font-normal  cursor-pointer" />
           </div>
-          <div className={`mt-[1px] footerLogo`}>
+          <div className={`mt-[1px] footerLogo ${styles.MobileHide}`}>
             <Image src={logo} alt="logo" />
             {/* <div className="flex flex-row justify-between items-center -mt-[40px] relative mt-[10px]">
               <p className="text-[13px] leading-[28px] black-color medium font-normal">
