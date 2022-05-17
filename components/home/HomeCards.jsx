@@ -5,11 +5,11 @@ import Models from "../../assets/images/models.jpg";
 
 const HomeCards = ({reverse, mt, pb, marginTop}) => {
   return (
-    <div className={`flex px-[20px] ${reverse} ${mt} ${pb} ${marginTop}`}>
-      <div className="w-[50%]">
+    <div className={`flex flex-wrap lg:px-[20px] px-[0] ${reverse} ${mt} ${pb} ${marginTop}`}>
+      <div className="lg:w-[50%] w-[100%]">
         <Image src={Models} alt="Models" />
       </div>
-      <div className="w-[50%] p-[40px] flex flex-col justify-end">
+      <div className="lg:w-[50%] w-[100%] p-[40px] flex flex-col justify-end">
         <h2 className="uppercase mt-[27.5px] mb-[30px] text-[40px] leading-[54px] black-color font-normal medium tracking-[0.4px] max-w-[360px] break-normal">
           INTRODUCING EMBER
         </h2>

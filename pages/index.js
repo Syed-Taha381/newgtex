@@ -6,6 +6,7 @@ import YourName from '../components/home/YourName'
 import Connect from '../components/home/Connect'
 import InstaFeed from '../components/home/InstaFeed'
 import Header from '../components/home/Header'
+import MobileYourName from '../components/home/MobileYourName'
 
 export default function Home() {
   return (
@@ -21,9 +22,10 @@ export default function Home() {
           <FreeShipping />
           <Header />
           <HomeCards marginTop={'mt-[40px]'}/>
-          <HomeCards reverse={'flex-row-reverse'} mt={'-mt-[6px]'} />
-          <HomeCards mt={'-mt-[6px]'} pb={'pb-[40px]'} />
+          <HomeCards reverse={'flex-row-reverse'} mt={'lg:-mt-[6px]'} />
+          <HomeCards mt={'lg:-mt-[6px]'} pb={'pb-[40px]'} />
           <YourName />
+          <MobileYourName />
           <InstaFeed />
           <Connect />
         </Layout>

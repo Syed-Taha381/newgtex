@@ -21,9 +21,9 @@ const InstaFeed = () => {
           your chance to be featured.
         </p>
       </div>
-      <div className="px-[20px] flex justify-between">
+      <div className="px-[20px] flex justify-between flex-wrap">
         <div
-          className={`w-[39%] h-[513px] ${styles.firstImg} ${styles.aaja} relative`}
+          className={`lg:w-[39%] w-[100%] lg:h-[513px] h-[370px] ${styles.firstImg} ${styles.aaja} relative`}
         >
           <Image  alt="image" src={first} className={`cursor-pointer ${styles.firstImg}`} />
           <span
@@ -32,7 +32,7 @@ const InstaFeed = () => {
             <FaInstagram className="text-[35px] black-color font-medium h-[100%] m-auto black" />
           </span>
         </div>
-        <div className="w-[19.5%]">
+        <div className="lg:w-[19.5%] w-[49%]">
           <div className={`${styles.second} relative ${styles.aaja}`}>
             <Image  alt="image" src={second} className={`${styles.second}`} />
             <span
@@ -50,7 +50,7 @@ const InstaFeed = () => {
             </span>
           </div>
         </div>
-        <div className="w-[19.5%]">
+        <div className="lg:w-[19.5%] w-[49%]">
           <div className={`${styles.second} relative ${styles.aaja}`}>
             <Image  alt="image" src={fourth} className={`${styles.second}`} />
             <span
@@ -68,7 +68,7 @@ const InstaFeed = () => {
             </span>
           </div>
         </div>
-        <div className="w-[19.5%]">
+        <div className={`lg:w-[19.5%] w-[49%] ${styles.MobileHide}`}>
           <div className={`${styles.second} relative ${styles.aaja}`}>
             <Image  alt="image" src={sixth} className={`${styles.second}`} />
             <span

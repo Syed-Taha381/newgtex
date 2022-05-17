@@ -75,7 +75,7 @@
   cursor: pointer;
 }
 
-.backgroungHeader{
+.backgroungHeader {
   background-image: url(../assets/images/homepage-desktop-banner.jpg);
   justify-content: flex-start;
   display: flex;
@@ -91,4 +91,66 @@
   height: 546.34px;
   background-repeat: no-repeat;
   justify-content: flex-end;
+}
+
+@media (max-width: 500px) {
+  .backgroungHeader {
+    position: relative;
+    margin-left: -48vw;
+    padding-top: 40px;
+    height: 259.77px;
+    background-position: right top;
+    display: none;
+  }
+  .MobileShow{
+    display: block !important;
+  }
+  .MobileHide{
+    display: none !important;
+  }
+  .firstImg > span {
+    height: 365px !important;
+  }
+  .connectBg{
+    min-height: 300px !important;
+  }
+}
+
+.mobileHero {
+  height: 259.77px;
+  background-position: right top;
+  width: 100%;
+}
+
+.mobileHero > span {
+  height: 259px !important;
+}
+
+.mobileHero img {
+  object-fit: cover;
+  object-position: right;
+}
+.MobileShow{
+  display: none;
+}
+.YourMobile {
+  height: 259.77px;
+  background-position: right top;
+  width: 100%;
+}
+
+.YourMobile > span {
+  height: 259px !important;
+}
+
+.YourMobile img {
+  object-fit: cover;
+  object-position: left;
+}
+.MobileShow{
+  display: none;
+}
+
+.MobileHide{
+  display: block;
 }

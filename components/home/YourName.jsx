@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.css";
 
 const YourName = () => {
   return (
-    <div className={`${styles.backgroungImage}`}>
+    <div className={`${styles.backgroungImage} ${styles.MobileHide}`}>
       <div className="flex h-full">
         <div className="w-[50%] self-stretch"></div>
         <div className="py-[60px] w-[50%] flex flex-col justify-end">

@@ -11,12 +11,12 @@ const Connect = () => {
         <h4 className="text-[28px] black-color semiblod font-medium leading-[31px] text-center my-[22px]">
           CONNECT
         </h4>
-        <p className="mb-[25px] text-[18px] leading-[26px] medium font-normal black-color text-center">
+        <p className="mb-[25px] lg:text-[18px] text-[13px] leading-[26px] medium font-normal black-color text-center">
           The best products and services built for the best people. <br />Sign up to
           enjoy 20% off your first order.
         </p>
         <div className="relative">
-            <input type="text" name="email" placeholder="Enter your email address" className="w-[543.2px] py-[5px] px-[15px] h-[45px] border-[0] medium font-normal text-[11px] leading-[16px] inputColor focus:outline-none" />
+            <input type="text" name="email" placeholder="Enter your email address" className="lg:w-[543.2px] w-[100%] py-[5px] px-[15px] h-[45px] border-[0] medium font-normal text-[11px] leading-[16px] inputColor focus:outline-none" />
             <FaChevronRight className="absolute top-[40%] right-[16px] text-[10px] leading-[10px] inputColor font-normal" />
         </div>
       </div>
