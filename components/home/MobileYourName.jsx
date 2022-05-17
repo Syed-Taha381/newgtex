@@ -11,7 +11,7 @@ const MobileYourName = () => {
       </span>
       <div className="pt-[30px] pb-[30px]">
         <h1 className="mb-[22px] text-center uppercase font-semibold text-[28px] leading-[31px] black-color medium">
-        IT'S YOUR NAME, NOT OURS
+        IT&apos;S YOUR NAME, NOT OURS
         </h1>
         <p className="mb-[11px] text-[18px] leading-[23px] medium black-color font-normal pl-[10px]">
           Get through your jampacked day in the utmost of comfort and style.
