@@ -10,7 +10,7 @@ import men2 from "../../assets/images/mega-menu/men2.jpg";
 
 const Header = () => {
   return (
-    <header className={`max-container full-widt h-[64px] ${styles.MobileHide}`}>
+    <header className={`max-container full-widt h-[64px] hidden lg:block`}>
       <div className="flex flex-warp justify-between items-center pl-[35px] pr-[35px] h-[64px]">
         <div className="w-[10%] h-[64px]">
           <span className={`${styles.spanImg}`}>

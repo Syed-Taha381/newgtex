@@ -105,6 +105,9 @@
   .MobileShow{
     display: block !important;
   }
+  .MobileShowMenu{
+    display: flex !important;
+  }
   .MobileHide{
     display: none !important;
   }
@@ -131,6 +134,9 @@
   object-position: right;
 }
 .MobileShow{
+  display: none;
+}
+.MobileShowMenu{
   display: none;
 }
 .YourMobile {

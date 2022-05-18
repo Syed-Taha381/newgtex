@@ -1,10 +1,12 @@
 import Footer from './Footer'
-import Header from './Header'
+import Header from './Header' 
+import MenuBar from './MenuBar'
 
 const Layout = ({children}) => {
   return (
     <>
-      <Header />
+      <Header /> 
+      <MenuBar />
         {children}
       <Footer />
     </>
