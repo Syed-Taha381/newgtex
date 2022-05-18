@@ -64,9 +64,9 @@ function Navbar() {
             </li>
             {SidebarData.map((item, index) => {
               return (
-                <Link href="#">
+                <Link href="#" key={index} >
                   <a className="set-li">
-                    <li key={index} className="cname medium">
+                    <li className="cname medium">
                       <span className="span">{item.title}</span>
                       <FaIcons.FaChevronRight className="chevron-color" />
                     </li>
